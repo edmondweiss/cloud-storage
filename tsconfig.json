@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "target": "ES2021",
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "dist",
+    "incremental": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/scripts"
+  ]
+}
